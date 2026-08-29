@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#991b1b" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#180b0d" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Prag Reise">
+  <meta name="description" content="Persönlicher mobiler Reisebegleiter für Prag 30.08.–03.09.2026">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="icon" href="./icon-192.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Prag Reise</title>
+</head>
+<body>
+  <div id="appShell">
+    <header class="topbar">
+      <div><div class="brand">🇨🇿 PRAG</div><div id="topDate" class="subtle"></div></div>
+      <button class="iconbtn" id="quickStatusBtn" aria-label="Status">●</button>
+    </header>
+    <main id="view" tabindex="-1"></main>
+    <nav class="bottomnav" aria-label="Navigation">
+      <button data-tab="today" class="navitem active"><span>🏠</span><b>Heute</b></button>
+      <button data-tab="days" class="navitem"><span>📅</span><b>Tage</b></button>
+      <button data-tab="tickets" class="navitem"><span>🎟️</span><b>Tickets</b></button>
+      <button data-tab="parking" class="navitem"><span>🅿️</span><b>Auto</b></button>
+      <button data-tab="places" class="navitem"><span>📍</span><b>Orte</b></button>
+      <button data-tab="settings" class="navitem"><span>⚙️</span><b>Mehr</b></button>
+    </nav>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true"><div class="modalcard" id="modalCard"></div></div>
+  <script src="./trip-data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
