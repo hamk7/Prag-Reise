@@ -12,7 +12,7 @@
   <link rel="manifest" href="./manifest.json">
   <link rel="apple-touch-icon" href="./apple-touch-icon.png">
   <link rel="icon" href="./icon-192.png">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles.css?v=1.1.0">
   <title>Prag Reise</title>
 </head>
 <body>
@@ -33,7 +33,8 @@
   </div>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <div id="modal" class="modal hidden" role="dialog" aria-modal="true"><div class="modalcard" id="modalCard"></div></div>
-  <script src="./trip-data.js"></script>
-  <script src="./app.js"></script>
+  <script src="./trip-data.js?v=1.1.0"></script>
+  <script src="./app.js?v=1.1.0"></script>
+  <script>setTimeout(function(){if(!window.PRAG_TRIP||!document.querySelector("#view .card, #view .heroTitle")){var v=document.getElementById("view");if(v)v.innerHTML="<div class=\"card warn\"><h2>⚠️ App-Skripte nicht geladen</h2><p>Wenn du diese Datei direkt aus einer Datei-Vorschau oder der GitHub-Codeansicht geöffnet hast, funktionieren die Buttons dort nicht. Öffne die veröffentlichte GitHub-Pages-Webseite.</p></div>";}},1200);</script>
 </body>
 </html>

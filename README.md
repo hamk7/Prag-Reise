@@ -1,3 +1,7 @@
+# Prag Reise v1.1 – Button-Fix
+
+Diese Version behebt einen Fehler, bei dem Safari-Aktionen abbrechen konnten, wenn localStorage in einer Vorschau/Privat-/Dateiumgebung blockiert war. Außerdem werden alte PWA-Dateien durch Cache-Busting ersetzt.
+
 # Prag Reise – GitHub Pages
 
 ## Dateien hochladen
