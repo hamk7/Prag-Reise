@@ -1,13 +1,11 @@
-# Prag Reise v2.8
+# Prag Reise v2.9
 
-Änderungen:
-- Montag: Čertovka als eigener Halt direkt nach der Engsten Gasse.
-- Dienstag: Nationaltheater (Národní divadlo) vor dem Rückweg zum Hotel.
-- Optionale Morgen-Cafés auf dem Weg: Montag/Mittwoch bei I. P. Pavlova, Dienstag nahe Wenzelsplatz.
-- Planzeiten des laufenden Tages starten beim ersten Öffnen der neuen Version mit der tatsächlichen Uhrzeit und verschieben alle ungefähren Zeiten.
-- Orte-Liste beginnt mit dem heutigen Reisetag; vergangene Tage stehen danach.
-- Optionale Café-Halte können direkt übersprungen werden.
-- Aktueller Halt bleibt ganz oben.
-- Supabase-Sync, Tickets, Parkplatz, Gebete und bestehender Fortschritt bleiben erhalten.
+Neu in v2.9:
 
-Upload auf GitHub Pages: `index.html` ersetzen; `prag-icon.png` kann unverändert bleiben. Danach einmal mit `?v=28` öffnen.
+- ausführlicher Reiseführer bei allen echten Sehenswürdigkeits-Stopps
+- aufklappbarer Abschnitt **📖 Geschichte & Umgebung** im Jetzt-Modus
+- dieselben ausführlichen Texte auch beim reinen Anschauen eines Ortes, ohne Fortschritt zu verändern
+- Texte erklären Geschichte, Umgebung und worauf ihr vor Ort achten solltet
+- Reihenfolge, Supabase-Sync, Tickets, Parkplatz, Gebete und Fortschritt bleiben unverändert
+
+GitHub: `index.html` ersetzen. `prag-icon.png` kann unverändert bleiben. Danach einmal mit `?v=29` öffnen.
